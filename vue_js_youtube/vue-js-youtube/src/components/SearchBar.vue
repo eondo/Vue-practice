@@ -16,6 +16,7 @@ export default {
   methods: {
     search: function () {
       this.$emit("search", this.searchSubject);
+      console.log('this', this)
       this.searchSubject = null;
     },
   },
