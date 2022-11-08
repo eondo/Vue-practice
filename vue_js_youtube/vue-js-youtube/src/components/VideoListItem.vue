@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h1>MainVideo</h1>
+    <p>VideoListItem</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: "MainVideo",
+  name: "VideoListItem",
 };
 </script>
 
